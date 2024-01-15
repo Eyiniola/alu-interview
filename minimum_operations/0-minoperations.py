@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Given a number n, write a method that calculates the fewest # of operations.
 
