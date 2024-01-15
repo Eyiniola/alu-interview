@@ -24,4 +24,3 @@ def minOperations(n):
     # Calculate the minimun operations using the prime factors
     min_operations = sum(factors)
     return min_operations
-
