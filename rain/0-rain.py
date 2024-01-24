@@ -1,24 +1,15 @@
 #!/usr/bin/python3
-
- """
+"""
     Calculate the amount of rainwater retained between walls.
 
     Given a list of non-negative integers representing the heights of walls
     with unit width 1, as if viewing the cross-section of a relief map, this
     function calculates how many square units of water will be retained after
     it rains.
-
-    Parameters:
-    - walls (List[int]): A list of non-negative integers representing the
-      heights of walls. Assume that the ends of the list (before index 0 and
-      after index walls[-1]) are not walls, meaning they will not retain water.
-
-    Returns:
-    - int: Total amount of rainwater retained.
-    """
+"""
 
 
-    def rain(walls):
+def rain(walls):
     if not walls:
         return 0
 
@@ -42,6 +33,3 @@
         water_retained += max(0, min(left_max[i], right_max[i]) - walls[i])
 
     return water_retained
-
-
-
