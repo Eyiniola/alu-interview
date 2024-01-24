@@ -14,9 +14,9 @@ def rain(walls):
         return 0
 
     n = len(walls)
-    left_max = [0] * n 
-    # Initialize an array to store the maximum height to the left 
-    right_max = [0] * n  
+    left_max = [0] * n
+    # Initialize an array to store the maximum height to the left
+    right_max = [0] * n
     # Initialize an array to store the maximum height to the right
 
     # Calculate the maximum height to the left of each position
