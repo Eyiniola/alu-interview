@@ -15,8 +15,9 @@
 
     Returns:
     - int: Total amount of rainwater retained.
-
     """
+
+
     def rain(walls):
     if not walls:
         return 0
