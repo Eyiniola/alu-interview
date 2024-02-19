@@ -13,9 +13,9 @@ def pascal_triangle(n):
             row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
         triangle.append(row)
 
-    # Print the triangle for testing
+    # Print the triangle with proper spacing
     for row in triangle:
-        print(row)
+        print(" ".join(map(str, row)))
 
 # Example usage:
 pascal_triangle(5)
