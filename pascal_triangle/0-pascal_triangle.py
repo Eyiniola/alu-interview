@@ -15,7 +15,7 @@ def pascal_triangle(n):
 
     # Print the triangle with proper spacing
     for row in triangle:
-        print(" ".join(map(str, row)))
+        print("[{}]".format(",".join([str(x) for x in row])))
 
 # Example usage:
 pascal_triangle(5)
